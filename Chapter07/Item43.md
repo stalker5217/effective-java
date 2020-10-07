@@ -19,7 +19,7 @@ map.merge(key, 1, (existValue, initValue) -> Integer.sum(existValue, initValue))
 map.merge(key, 1, Integer::sum);
 ```
 
-> 메소드 참조보다 오히려 람다로 작성했을 때 더 깔끔할 때가 있는데, 그러면 그냥 람다로 작성하는게 맞다.
+> 메소드 참조보다 오히려 람다로 작성하는게 더 깔끔할 때가 있는데, 그러면 그냥 람다로 작성하는게 맞다.
 
 <br/>
 
