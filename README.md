@@ -19,6 +19,7 @@
 - [Item 57 : 지역변수의 범위를 최소화하라](/Chapter09/Item57.md)  
 - [Item 58 : 전통적인 for문보다는 for-each문을 사용하라](/Chapter09/Item58.md)
 - [Item 59 : 라이브러리를 익히고 사용하라](/Chapter09/Item59.md)
+- [Item 60 : 정확한 답이 필요하다면 float와 double은 피하라](/Chapter09/Item60.md)
 
 ### 10장 : 예외
 
