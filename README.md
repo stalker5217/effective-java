@@ -24,6 +24,7 @@
 - [Item 61 : 박싱된 기본 타입보다는 기본 타입을 사용하라](/Chapter09/Item61.md)
 - [Item 62 : 다른 타입이 적절하다면 문자열 사용을 피하라](/Chapter09/Item62.md)
 - [Item 63 : 문자열 연결은 느리지 주의하라](/Chapter09/Item63.md)
+- [Item 64 : 객체는 인터페이스를 사용해 참조하라](/Chapter09/Item64.md)
 
 ### 10장 : 예외
 
