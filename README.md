@@ -23,8 +23,10 @@
 - [Item 60 : 정확한 답이 필요하다면 float와 double은 피하라](/Chapter09/Item60.md)
 - [Item 61 : 박싱된 기본 타입보다는 기본 타입을 사용하라](/Chapter09/Item61.md)
 - [Item 62 : 다른 타입이 적절하다면 문자열 사용을 피하라](/Chapter09/Item62.md)
-- [Item 63 : 문자열 연결은 느리지 주의하라](/Chapter09/Item63.md)
+- [Item 63 : 문자열 연결은 느리니 주의하라](/Chapter09/Item63.md)
 - [Item 64 : 객체는 인터페이스를 사용해 참조하라](/Chapter09/Item64.md)
+- [Item 65 : 리플렉션보다는 인터페이스를 사용하라](/Chapter09/Item65.md)  
+- [Item 66 : 네이티브 메서드는 신중히 사용하라](/Chapter09/Item66.md)
 
 ### 10장 : 예외
 
