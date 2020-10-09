@@ -23,7 +23,7 @@ map.merge(key, 1, Integer::sum);
 
 <br/>
 
-## 메소드 참조 정리  
+# 메소드 참조 정리  
 
 |type|example|labmda expression|
 |:--|:--|:--|
