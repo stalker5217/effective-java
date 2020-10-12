@@ -27,7 +27,7 @@
 - [Item 64 : 객체는 인터페이스를 사용해 참조하라](/Chapter09/Item64.md)
 - [Item 65 : 리플렉션보다는 인터페이스를 사용하라](/Chapter09/Item65.md)  
 - [Item 66 : 네이티브 메서드는 신중히 사용하라](/Chapter09/Item66.md)
-- [Item 67 : 최적하는 신중히 하라](/Chapter09/Item67.md)
+- [Item 67 : 최적화는 신중히 하라](/Chapter09/Item67.md)
 - [Item 68 : 일반적으로 통용되는 명명 규칙을 따르라](/Chapter09/Item68.md)
 
 ### 10장 : 예외
