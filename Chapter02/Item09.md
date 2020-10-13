@@ -44,7 +44,7 @@ static void copy(String src, String dst) throws IOException{
 만약 단순히 try 구문에서의 예외가 아니라 근본적인 문제가 발생해서 
 ```readLine``` 에서도 예외가 발생하고 finally의 ```close```에서도 예외가 발생한다고 가정하자. 
 그러면 ```close```에서 발생한 두 번째 예외가 첫 번째 예외를 완전히 삼켜버린다. 
-첫 번째 Stack Trace 상에 첫 번째 예외에 관한 에러 로그를 추적하기가 쉽지 않게 되고 이는 디버깅을 힘들게한다. 
+Stack Trace 상에 첫 번째 예외에 관한 에러 로그를 추적하기가 쉽지 않게 되고 이는 디버깅을 힘들게한다. 
 
 Java 7에서 부터는 try-with-resources 구문을 지원하며 이러한 문제를 비롯해 가독성도 높일 수 있게 되었다. 
 이 구조를 사용하기 위해서는 AutoCloseable Interface를 implement하여 ```close``` 메소드를 구현해야 하는데, 
