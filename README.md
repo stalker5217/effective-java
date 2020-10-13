@@ -3,6 +3,7 @@
 ### 2장 : 객체 생성자 파괴  
 
 - [Item 04 : 인스턴스화를 막으려거든 private 생성자를 사용하라](/Chapter02/Item04.md)
+- [Item 09 : try-finally 보다는 try-with-resources를 사용하라](/Chapter02/Item09.md)
 
 ### 3장 : 모든 객체의 공통 메서드  
 
