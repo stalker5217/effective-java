@@ -10,6 +10,13 @@ public final class PhoneNumber {
         this.lineNum  = rangeCheck(lineNum, 9999, "가입자 번호");
     }
 
+	private static short rangeCheck(int val, int max, String arg) {
+        if (val < 0 || val > max)
+            throw new IllegalArgumentException(arg + ": " + val);
+        return (short) val;
+    }
+
+
     public static void main(String[] args) {
         PhoneNumber jenny = new PhoneNumber(707, 867, 5309);
         System.out.println("제니의 번호: " + jenny);
@@ -22,7 +29,7 @@ public final class PhoneNumber {
 위 코드의 경우 전화번호를 반환하기를 기대하지만 실제 출력되는 것은 '클래스_이름@16진수_해시코드'를 반환할 뿐이다. 
 
 ```toString```을 항상 재정의하자. 
-```println```, 문자열 연결 연산, assert 등 ```toString```이 호출되는 형태는 직접 사용하지 않더라도 매우 많다. 
+```println```, 문자열 연결 연산, ```assert``` 등 ```toString```이 호출되는 형태는 직접 사용하지 않더라도 매우 많다. 
 이는 간결하면서도 사람이 읽기 쉬운 형태의 유익한 정보를 반환해야하며, 
 그 객체가 가지고 있는 주요 정보들을 모두 반환하는 것이 좋다. 
 
@@ -34,6 +41,12 @@ public final class PhoneNumber {
         this.areaCode = rangeCheck(areaCode, 999, "지역코드");
         this.prefix   = rangeCheck(prefix,   999, "프리픽스");
         this.lineNum  = rangeCheck(lineNum, 9999, "가입자 번호");
+    }
+
+	private static short rangeCheck(int val, int max, String arg) {
+        if (val < 0 || val > max)
+            throw new IllegalArgumentException(arg + ": " + val);
+        return (short) val;
     }
 
 	/**
