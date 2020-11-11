@@ -24,6 +24,6 @@ Error 같은 경우에는 JVM에서의 자원 부족, 불변식 깨짐 등으로
 진짜로 트래픽이 갑자기 몰려 아주 일시적으로 발생할 수도 있다. 
 어떤 경우에는 분명히 Checked Excpetion 처럼 처리가 가능하며, 이는 전적으로 프로그래머의 판단에 따른다.
 
-> Error class는 프로그래머가 상속하여 새로운 에러를 정의하는 영역이 아니다
-> 프로그래머가 구현하는 throwable은 모두 RuntimeException의 하위 클래스여야 한다. 
+> Error class는 프로그래머가 상속하여 새로운 에러를 정의하는 영역이 아니다.  
+> 프로그래머가 구현하는 throwable은 모두 RuntimeException의 하위 클래스여야 한다.  
 > Error를 상속한다거나 Throwable만을 상속해서 구현하는 짓은 하지 말도록 하자.
