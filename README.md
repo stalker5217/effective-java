@@ -44,6 +44,7 @@
 - [Item 71 : 필요 없는 검사 예외 사용은 피하라](/Chapter10/Item71.md)
 - [Item 72 : 표준 예외를 사용하라](/Chapter10/Item72.md)
 - [Item 73 : 추상화 수준에 맞는 예외를 던지라](/Chapter10/Item73.md)
+- [Item 74 : 모든 예외를 문서화하라](/Chapter10/Item74.md)
 ### 11장 : 동시성  
 
 ### 12장 : 직렬화  
