@@ -47,6 +47,7 @@
 - [Item 74 : 모든 예외를 문서화하라](/Chapter10/Item74.md)
 - [Item 75 : 예외의 상세 메시지에 실패 관련 정보를 담아라](/Chapter10/Item75.md)
 - [Item 76 : 가능한 실패를 원자적으로 만들라](/Chapter10/Item76.md)
+- [Item 77 : 예외를 무시하지 말라](/Chapter10/Item77.md)
 
 ### 11장 : 동시성  
 
