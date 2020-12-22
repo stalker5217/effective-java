@@ -46,6 +46,7 @@
 - [Item 73 : 추상화 수준에 맞는 예외를 던지라](/Chapter10/Item73.md)
 - [Item 74 : 모든 예외를 문서화하라](/Chapter10/Item74.md)
 - [Item 75 : 예외의 상세 메시지에 실패 관련 정보를 담아라](/Chapter10/Item75.md)
+- [Item 76 : 가능한 실패를 원자적으로 만들라](/Chapter10/Item76.md)
 
 ### 11장 : 동시성  
 
