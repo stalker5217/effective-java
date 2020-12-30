@@ -18,6 +18,8 @@
 ### 7장 : 람다와 스트림  
 - [Item 42 : 익명 클래스보다는 람다를 사용하라](/Chapter07/Item42.md)
 - [Item 43 : 람다보다는 메서드 참조를 사용하라](/Chapter07/Item43.md)
+- [Item 44 : 표준 함수형 인터페이스를 사용하라](/Chapter07/Item44.md)
+- [Item 45 : 스트림은 주의해서 사용하라](/Chapter07/Item45.md)
 
 ### 8장 : 메소드  
 - [Item 49 : 매개변수가 유효한지 검사하라](/Chapter08/Item49.md)
