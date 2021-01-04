@@ -34,8 +34,9 @@ try(Stream<String> words = new Scanner(file).tokens()){
 }
 ```
 
-```groupingBy``` 같은 구문은 ```java.util.stream.Collectors```를 static import 하여 사용하고 있으며 
-스트림을 잘 사용하기 위해서는 알아두도록 하자. 
+```groupingBy``` 같은 구문은 ```java.util.stream.Collectors```에 포함되어 있으며
+주로 static import 하여 사용한다. 
+스트림을 잘 사용하기 위해서는 반드시 알아두도록 하자. 
 
 [Class Collectors](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Collectors.html)  
 
@@ -43,8 +44,6 @@ try(Stream<String> words = new Scanner(file).tokens()){
 - ```toMap(Function keyMapper, Function valueMapper)```
 - ```toMap(Function keyMapper, Function valueMapper, BinaryOperator mergeFunction)```
 - ```toMap(Function keyMapper, Function valueMapper, BinaryOperator mergeFunction, Supplier mapSupplier)```
-
-원소에 대해 키 값과 값을 확인하는 함수를 두 개 받는다. 
 
 ``` java
  List<Person> pList = new ArrayList<>();
@@ -61,7 +60,7 @@ Map<String, Integer> pMap =
 							Person::getAge));
 ```
 
-키를 생성하는 함수와 값을 생성하는 함수 두 가지가 존재한다. 
+키를 생성하는 함수와 값을 생성하는 함수를 파라미터로 받는다. 
 하지만 이 형태의 메소드는 키 값이 중복된다면 ```IllegalStateException```이 발생되며 종료된다. 
 
 ``` java
@@ -125,7 +124,7 @@ Map<String, List<Employee>> eMap =
 ```
 
 가장 간단한 형태로는 ```classifier``` 함수만 넘기는 것이다. 
-이는 부서명으로 그룹핑을하며 반환 값으로는 키가 부서명이고 값은 해당 부서에 속한 객체들이다.
+이는 부서명으로 그룹핑을하며 반환 값으로는 키가 부서명이고 값은 해당 부서에 속한 객체들로 구성된 리스트이다.
 
 ``` java
 List<Employee> eList = new ArrayList<>();
@@ -141,7 +140,7 @@ Map<String, Long> eMap =
 											couting());
 ```
 
-값을 객체 리스트가 아닌 다른 형태로 사용하기 위해서는 다운스트림을 전달하는 것이다. 
+값을 객체 리스트가 아닌 다른 형태로 사용하기 위해서는 다운스트림을 전달한다. 
 위 예에서는 ```counting()```을 전달하여 각 부서에 속한 직원의 수를 값으로 가지게 된다. 
 
 ``` java
