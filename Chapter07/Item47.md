@@ -54,3 +54,4 @@ for(ProcessHandle p : iterableOf(ProcessHandle.allProcesses())){
 public static <E> Stream<E> streamOf(Iterable<E> iterable){
 	return StreamSupport.stream(iterable.spliteratort(), false);
 }
+```
