@@ -15,6 +15,8 @@
 
 ### 6장 : 열거 타입과 애노테이션  
 
+- [Item 36 : 비트 필드 대신 EnumSet을 사용하라](/Chapter06/Item36.md)
+
 ### 7장 : 람다와 스트림  
 - [Item 42 : 익명 클래스보다는 람다를 사용하라](/Chapter07/Item42.md)
 - [Item 43 : 람다보다는 메서드 참조를 사용하라](/Chapter07/Item43.md)
