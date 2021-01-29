@@ -1,7 +1,7 @@
 # Effective Java 3/E  
 
 ### 2장 : 객체 생성자 파괴  
-
+- [Item 01 : 생성자 대신 정적 팩터리 메서드를 고려하라](/Chapter02/Item01.md)
 - [Item 04 : 인스턴스화를 막으려거든 private 생성자를 사용하라](/Chapter02/Item04.md)
 - [Item 09 : try-finally 보다는 try-with-resources를 사용하라](/Chapter02/Item09.md)
 
