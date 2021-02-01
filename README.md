@@ -13,6 +13,8 @@
 
 ### 5장 : 제네릭  
 
+- [Item 27 : 비검사 경고를 제거하라](/Chapter05/Item27.md)
+
 ### 6장 : 열거 타입과 애노테이션  
 
 - [Item 36 : 비트 필드 대신 EnumSet을 사용하라](/Chapter06/Item36.md)
